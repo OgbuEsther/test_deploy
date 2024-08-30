@@ -6,50 +6,50 @@
     <title>Document</title>
 </head>
 <body style="background-color: lightskyblue; width: 100vw; height: 100vh; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-    <form style="width: 45%; height: 85%; background-color: white; border-radius: 10px; padding: 30px;" action="" onsubmit="return handleSubmit(event)">
-        <h1 style="margin: 0;">Contact Us</h1>
-        <div style="display: flex;">
+    <form style="width: 45%; height: 80%; background-color: white; border-radius: 10px; padding: 30px;" action="" onsubmit="return handleSubmit(event)">
+        <h1 style="margin: 0; margin-bottom: 20px;">Contact Us</h1>
+        <div style="display: flex; margin-bottom: 10px;">
             <div style="margin-right: 30px;">
-                <label style="margin-bottom: 20px;" for="first-name">First Name: <span style="color: red;">*</span></label>
-                <br><br>
-                <input id="first-name" style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray;" type="text" required placeholder="Please enter your first name">
+                <label for="first-name">First Name: <span style="color: red;">*</span></label>
+                <br>
+                <input id="first-name" style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; margin-top: 10px;" type="text" required placeholder="Please enter your first name">
             </div>
             <div style="margin-right: 30px;">
-                <label style="margin-bottom: 20px;" for="last-name">Last Name: <span style="color: red;">*</span></label>
-                <br><br>
-                <input id="last-name" style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray;" type="text" required placeholder="Please enter your last name">
+                <label  for="last-name">Last Name: <span style="color: red;">*</span></label>
+                <br>
+                <input id="last-name" style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; margin-top: 10px;" type="text" required placeholder="Please enter your last name">
             </div>
         </div>
-        <br><br>
+        <br>
         <div>
             <label for="email">Email Address <span style="color: red;">*</span></label>
-            <br><br>
-            <input id="email" style="width: 100%; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray;" type="text" required placeholder="Please enter your email address">
+            <br>
+            <input id="email" style="width: 100%; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; margin-top: 10px;" type="text" required placeholder="Please enter your email address">
         </div>
-        <br><br>
+        <br>
         <div style="display: flex;">
             <div style="margin-right: 30px;">
                 <label for="query-general">Query Type <span style="color: red;">*</span></label>
-                <br><br>
-                <div style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; display: flex; align-items: center;">
+                <br>
+                <div style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; display: flex; align-items: center; margin-top: 10px;">
                     <input id="query-general" name="query-type" style="width: 20px; height: 20px; border: 0.5px solid lightgray; margin-left: 20px;" type="radio" required>
                     <span style="font-size: 15px; margin-left: 10px;">General Enquiry</span>
                 </div>
             </div>
             <div style="margin-right: 30px;">
                 <label for="query-feedback">Query Type <span style="color: red;">*</span></label>
-                <br><br>
-                <div style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; display: flex; align-items: center;">
+                <br>
+                <div style="width: 320px; height: 40px; border-radius: 5px; border: 0.8px solid lightslategray; display: flex; align-items: center; margin-top: 10px;">
                     <input id="query-feedback" name="query-feedback" style="width: 20px; height: 20px; border: 0.5px solid lightgray; margin-left: 20px;" type="radio" required>
                     <span style="font-size: 15px; margin-left: 10px;">Feedback</span>
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
         <div>
             <label for="message">Message <span style="color: red;">*</span></label>
-            <br><br>
-            <textarea id="message" style="width: 100%; height: 100px; border-radius: 5px; border: 0.8px solid lightslategray;" required placeholder="Please enter a message"></textarea>
+            <br>
+            <textarea id="message" style="width: 100%; height: 100px; border-radius: 5px; border: 0.8px solid lightslategray; margin-top: 10px;" required placeholder="Please enter a message"></textarea>
         </div>
         <button type="submit" style="width: 100%; height: 50px; background-color: lightskyblue; margin-top: 30px; border: none; outline: none; border-radius: 10px; cursor: pointer; font-size: 15px; font-weight: bold;">Submit</button>
     </form>
